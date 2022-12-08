@@ -61,6 +61,7 @@ view: users {
   dimension: state {
     type: string
     sql: ${TABLE}.state ;;
+    drill_fields: [detail*]
   }
 
   dimension: zip {
